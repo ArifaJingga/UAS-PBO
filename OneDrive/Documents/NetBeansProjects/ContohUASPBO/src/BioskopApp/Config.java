@@ -15,7 +15,7 @@ public class Config {
     private static Connection mysqlconfig;
     public static Connection configDB()throws SQLException {
         try {
-            String url="jdbc:mysql://localhost:3306/userdb";
+            String url="jdbc:mysql://localhost:3306/pelanggan2db";
             String username="root";
             String password="";
             DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
